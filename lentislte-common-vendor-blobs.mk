@@ -305,6 +305,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/samsung/lentislte-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -379,12 +380,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lentislte-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/lentislte-common/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/lentislte-common/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/lentislte-common/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
     vendor/samsung/lentislte-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/lentislte-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/lentislte-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/lentislte-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/lentislte-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/samsung/lentislte-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
